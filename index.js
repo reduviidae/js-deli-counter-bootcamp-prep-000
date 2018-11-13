@@ -20,7 +20,7 @@ function currentLine (queue) {
     newArray.push(`${i+1}. ${queue[i]}`)
   }
   if (newArray.length > 0) {
-    return `The line is currently: ${newArray.join(`, `)}.`
+    return `The line is currently: ${newArray.join(`, `)}`
   } else {
     return `The line is currently empty.`
   }
