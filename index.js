@@ -16,7 +16,7 @@ function nowServing (katzDeliLine) {
 
 function currentLine (queue) {
     var newArray = [];
-    for (i = 0; i < queue.length; i++) {
+    for (let i = 0; i < queue.length; i++) {
     newArray.push(`${i+1}. ${queue[i]}`)
   }
   if (newArray.length > 0) {
